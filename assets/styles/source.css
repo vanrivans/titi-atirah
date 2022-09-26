@@ -1,0 +1,25 @@
+/************************************************* General *************************************************/
+html {
+	font-family: var(--ff-forum);
+	--ff-primary: var(--ff-forum);
+	--ff-secondary: var(--ff-pinyon);
+	--ff-third: var(--ff-dancing);
+	--clr-secondary: #af976c;
+	--clr-third: #7f703f;
+	--clr-green: #198754;
+	--clr-red: #dc3545;
+	font-size: 18px;
+}
+a[href],
+a[href]:hover {
+	color: #000;
+	text-decoration: none;
+}
+a[href],
+button {
+	color: #000;
+	cursor: pointer;
+}
+p {
+	margin: 0 !important;
+}
