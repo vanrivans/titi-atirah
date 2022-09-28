@@ -50,17 +50,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] 	= 'Home/index';
-$route['githubupdate']			= 'Githubupdate/index';
-$route['dashboard/(:any)']		= 'Dashboard/index/$1';
-
-$route['api/get_data/(:any)/(:any)'] = 'Api/get_data/$1/$2';
-$route['api/submit_absent'] 	= 'Api/submit_absent';
-$route['api/submit_comment'] 	= 'Api/submit_comment';
-$route['api/comment/(:any)/(:any)']		= 'Api/get_comment/$1/$2';
-$route['api/recipient/(:any)'] = 'Api/get_recipient/$1';
-$route['api/send_card'] = 'Api/send_card';
-
-$route['home/test'] 			= 'Home/test';
 
 $route['404_override'] 			= '';
 $route['translate_uri_dashes'] 	= FALSE;

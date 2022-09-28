@@ -43,8 +43,6 @@ $CI = &get_instance();
 
 	@yield('navbar')
 
-	@yield('cover')
-
     {{-- Header & Body --}}
     <div class="container-fluid" style="z-index:1">
 
