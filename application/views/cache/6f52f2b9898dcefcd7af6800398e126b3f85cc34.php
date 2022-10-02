@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\titi-atirah\application\modules/Layouts/config/_fonts.blade.php ENDPATH**/ ?>

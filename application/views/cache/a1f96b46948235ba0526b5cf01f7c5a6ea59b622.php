@@ -1,6 +1,6 @@
-@php
+<?php
 $CI = &get_instance();
-@endphp
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -32,29 +32,27 @@ $CI = &get_instance();
 
     <title><?= empty($Title) ? '' : $Title; ?></title>
 
-    <link rel="shortcut icon" href="{{ base_url('assets/logo/logo.png') }}" />
-    <link href="{{ base_url('assets/logo/logo.png') }}" rel='icon' type='image/x-icon'/>
+    <link rel="shortcut icon" href="<?php echo e(base_url('assets/logo/logo.png')); ?>" />
+    <link href="<?php echo e(base_url('assets/logo/logo.png')); ?>" rel='icon' type='image/x-icon'/>
 
-    {{-- Custom link css --}}
-    @include('Layouts.config._css-link')
+    
+    <?php echo $__env->make('Layouts.config._css-link', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
 </head>
 <body style="overflow-x:hidden">
 
-    @include('Layouts.config._navbar')
+    <?php echo $__env->make('Layouts.config._navbar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-    {{-- Header & Body --}}
+    
     <div class="container-fluid" style="z-index:1">
 
         <div class="row">
 
             <div class="col-12 p-0">
                 
-                {{-- <div class="container-fluid p-0">
-                    @yield('header')
-                </div> --}}
+                
             
-                @yield('main')
+                <?php echo $__env->yieldContent('main'); ?>
 
             </div>
 
@@ -62,17 +60,18 @@ $CI = &get_instance();
 
     </div>
 
-    {{-- Contact Us --}}
-    @include('Home.views.partial_detail.contact-us')
+    
+    <?php echo $__env->make('Home.views.partial_detail.contact-us', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-    {{-- Footer --}}
-    @include('Layouts.config._footer')
+    
+    <?php echo $__env->make('Layouts.config._footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-    {{-- For Cutom Link Js --}}
-    @include('Layouts.config._js-link')
+    
+    <?php echo $__env->make('Layouts.config._js-link', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-    {{-- For Script --}}
-    @yield('script')
+    
+    <?php echo $__env->yieldContent('script'); ?>
     
 </body>
 </html>
+<?php /**PATH C:\xampp\htdocs\titi-atirah\application\modules/Layouts/layout.blade.php ENDPATH**/ ?>

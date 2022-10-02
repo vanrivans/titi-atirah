@@ -57,4 +57,4 @@
             <span>Designed and developed by Booble Mitra Kreatif</span>
         </div>
     </div>
-</footer>
+</footer><?php /**PATH C:\xampp\htdocs\titi-atirah\application\modules/Layouts/config/_footer.blade.php ENDPATH**/ ?>
