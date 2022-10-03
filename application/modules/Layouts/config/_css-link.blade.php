@@ -6,3 +6,6 @@
 <link href="{{ base_url('assets/styles/animation.css') }}" rel="stylesheet">
 <link href="{{ base_url('assets/styles/source.css') }}" rel="stylesheet">
 <link href="{{ base_url('assets/styles/source-responsive.css') }}" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="{{ base_url('assets/plugins/slick/slick.css') }}"/>
+<link rel="stylesheet" type="text/css" href="{{ base_url('assets/plugins/slick/slick-theme.css') }}"/>
