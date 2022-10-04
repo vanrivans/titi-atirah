@@ -1,4 +1,4 @@
-<section class="contact-us">
+<section class="contact-us" id="contact-us">
     <div class="contact-us__box">
         <h2 class="title__menu">Contact Us Today</h2>
         <?php echo $__env->make('Layouts.icons.line-menu-2', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>

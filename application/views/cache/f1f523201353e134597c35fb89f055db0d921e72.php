@@ -37,10 +37,10 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="<?=base_url();?>">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Abous us</a>
+                    <a class="nav-link" href="<?=base_url();?>#about-us">Abous us</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink_products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,13 +51,13 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Gallery</a>
+                    <a class="nav-link" href="<?=base_url();?>#gallery">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Location</a>
+                    <a class="nav-link" href="<?=base_url();?>#location">Location</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us</a>
+                    <a class="nav-link" href="<?=base_url();?>#contact-us">Contact us</a>
                 </li>
             </ul>
             <div class="navbar-text">

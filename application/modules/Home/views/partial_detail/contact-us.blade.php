@@ -1,4 +1,4 @@
-<section class="contact-us">
+<section class="contact-us" id="contact-us">
     <div class="contact-us__box">
         <h2 class="title__menu">Contact Us Today</h2>
         @include('Layouts.icons.line-menu-2')

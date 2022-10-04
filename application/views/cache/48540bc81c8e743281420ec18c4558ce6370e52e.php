@@ -16,7 +16,7 @@
 
     <?php echo $__env->make('Home.views.partial_detail.gallery', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-    <section class="location">
+    <section class="location" id="location">
         <div class="location__box">
             <div class="row">
                 <div class="col-12">

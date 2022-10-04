@@ -20,7 +20,7 @@
 
     @include('Home.views.partial_detail.gallery')
 
-    <section class="location">
+    <section class="location" id="location">
         <div class="location__box">
             <div class="row">
                 <div class="col-12">

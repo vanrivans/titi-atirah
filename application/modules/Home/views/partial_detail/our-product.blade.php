@@ -12,14 +12,14 @@
                 <div class="img-our-product__group">
                     <div class="col">
                         <div class="img-our-product" id="fruits">
-                            <a href="" target="" class="layer">
+                            <a href="#" target="" class="layer">
                                 <span>Fruits</span>
                             </a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="img-our-product" id="vegetables">
-                            <a href="" target="" class="layer">
+                            <a href="#" target="" class="layer">
                                 <span>Vegetables</span>
                             </a>
                         </div>
@@ -31,25 +31,26 @@
                     </div>
                     <div class="col">
                         <div class="img-our-product" id="egg">
-                            <a href="" target="" class="layer">
+                            <a href="#" target="" class="layer">
                                 <span>Egg</span>
                             </a>
                         </div>
                         <div class="img-our-product" id="seafood">
-                            <a href="" target="" class="layer">
+                            <a href="#" target="" class="layer">
                                 <span>Seafood</span>
                             </a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="img-our-product" id="coffe">
-                            <a href="" target="" class="layer">
+                            <a href="#" target="" class="layer">
                                 <span>Coffe</span>
                             </a>
                         </div>
                         <div class="img-our-product" id="all">
-                            <a href="" target="" class="layer">
+                            <a href="<?=base_url();?>products" target="" class="layer">
                                 <span>All Product</span>
+                                <i class="bi-arrow-right-circle"></i>
                             </a>
                         </div>
                     </div>
